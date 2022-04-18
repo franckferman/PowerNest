@@ -1,6 +1,6 @@
 function main
 {
-$host.ui.RawUI.WindowTitle="Hyper-V Toolbox - Franck FERMAN"
+$host.ui.RawUI.WindowTitle="PowerNest - Franck FERMAN"
 Clear-Host
 Write-Host ""
 Write-Host "                             "
@@ -17,7 +17,7 @@ Write-Host "                *********    " -ForegroundColor green
 Write-Host "                             "
 Write-Host ""
 Write-Host ""
-Write-Host "Hello dear " -NoNewline;Write-Host "$env:UserName " -NoNewline -ForegroundColor green;Write-Host "and welcome to "-NoNewLine;Write-Host "Hyper-V Toolbox"-NonewLine -ForegroundColor green;Write-Host "."
+Write-Host "Hello dear " -NoNewline;Write-Host "$env:UserName " -NoNewline -ForegroundColor green;Write-Host "and welcome to "-NoNewLine;Write-Host "PowerNest"-NonewLine -ForegroundColor green;Write-Host "."
 Write-Host ""
 Write-Host "1 - Hey Google."
 Write-Host "2 - Schedule an alarm."
