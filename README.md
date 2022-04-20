@@ -7,6 +7,7 @@
 [![Stargazers][stars-shield]](https://github.com/franckferman/PowerNest/stargazers)
 [![Issues][issues-shield]](https://github.com/franckferman/PowerNest/issues)
 [![MIT License][license-shield]](https://github.com/franckferman/PowerNest/blob/main/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/fferman42)
   
 </div>
 
