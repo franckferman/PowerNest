@@ -12,10 +12,10 @@
     <img src="https://raw.githubusercontent.com/franckferman/PowerNest/main/img/logo.png" alt="Logo" width="140" height="130">
   </a>
 
-<h3 align="center">The Network Calculator Toolbox</h3>
+<h3 align="center">PowerNest</h3>
 
   <p align="center">
-    The Network Calculator Toolbox is a Python3 tool allowing the realization of numerous calculations dedicated essentially to the network administration.
+    Control your Google Nest Mini with PowerShell.
     <br />
     <a href="https://github.com/franckferman/PowerNest/blob/main/README.md"><strong>Explore the full documentation »</strong></a>
     <br />
