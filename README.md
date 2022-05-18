@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/franckferman/PowerNest">
-    <img src="https://raw.githubusercontent.com/franckferman/PowerNest/main/img/logo.png" alt="Logo" width="120" height="120">
+    <img src="https://raw.githubusercontent.com/franckferman/PowerNest/main/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">PowerNest</h3>
