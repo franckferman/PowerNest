@@ -7,7 +7,7 @@
 [![Stargazers][stars-shield]](https://github.com/franckferman/PowerNest/stargazers)
 [![Issues][issues-shield]](https://github.com/franckferman/PowerNest/issues)
 [![MIT License][license-shield]](https://github.com/franckferman/PowerNest/blob/main/LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/fferman42)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman)
   
 </div>
 
@@ -25,7 +25,7 @@
     <a href="https://github.com/franckferman/PowerNest/blob/main/README.md"><strong>Explore the full documentation »</strong></a>
     <br />
     <br />
-    <a href="https://asciinema.org/a/89042M80fkodhk45SasDXn0Qu">View Demo</a>
+    <a href="#">View Demo</a>
     .
     <a href="https://github.com/franckferman/PowerNest/issues">Report Bug</a>
     ·
@@ -62,8 +62,11 @@ Control your Google Nest Mini with PowerShell.
 
 <br />Here is an overview of the available features:
 
-- Hey Google.
+- Make Specific request.
+- Say Hey Google.
 - Schedule an alarm.
+- Change the voice of your Google Assistant.
+- Randomized fun feature.
 
 Many other features are under development.
 
@@ -72,8 +75,8 @@ Many other features are under development.
 ### Tested On
 
 This program has been tested on different operating systems:
-* - [x] [Microsoft Windows 11 Pro, PowerShell](https://www.microsoft.com/en-us/windows/get-windows-11)
-* - [x] [Microsoft Windows 10 Pro, Python 3](https://www.microsoft.com/en-us/d/windows-10-pro/df77x4d43rkt?activetab=pivot:overviewtab)
+* - [x] [Microsoft Windows 11 Pro](https://www.microsoft.com/en-us/windows/get-windows-11)
+* - [x] [Microsoft Windows 10 Pro](https://www.microsoft.com/en-us/d/windows-10-pro/df77x4d43rkt?activetab=pivot:overviewtab)
 * - [x] [Microsoft Windows PowerShell 7.2.2](https://microsoft.com/powershell)
 * - [x] [Microsoft Windows PowerShell 5.1.22000.282](https://microsoft.com/powershell)
 
@@ -92,14 +95,14 @@ Please note that my script must be placed where you want your machines to be sto
 
 * For example, if you want them to be in your C:\ directory, issue the following command from your PowerShell terminal:
 ```sh
-Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/hyper-v_toolbox/main/hyper-v_toolbox.ps1 -Destination "C:\" -DisplayName "Hyper-V_Toolbox - Downloading function - Franck FERMAN." -Description "Downloading the script."
+Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/PowerNest/main/PowerNest.ps1 -Destination "C:\" -DisplayName "PowerNest - Downloading function - Franck FERMAN." -Description "Downloading the script."
 ```
 
 Of course, you can change the desired destination path. To do this, you just have to change the argument of the -Destination parameter.
 
 * For example:
 ```sh
-Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/hyper-v_toolbox/main/hyper-v_toolbox.ps1 -Destination "D:\" -DisplayName "Hyper-V_Toolbox - Downloading function - Franck FERMAN." -Description "Downloading the script."
+Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/PowerNest/main/PowerNest.ps1 -Destination "D:\" -DisplayName "PowerNest - Downloading function - Franck FERMAN." -Description "Downloading the script."
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -107,7 +110,7 @@ Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/hyper-
 
 * To run the script, simply go to the script installation path and run the PowerShell script (Administrator rights are required):
 ```sh
-Set-Location -Path "C:\";Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force;.\hyper-v_toolbox.ps1
+Set-Location -Path "C:\";Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force;.\PowerNest.ps1
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -149,5 +152,5 @@ Project Link: [https://github.com/franckferman/PowerNest](https://github.com/fra
 [license-shield]: https://img.shields.io/github/license/franckferman/PowerNest.svg?style=for-the-badge
 [license-url]: https://github.com/franckferman/PowerNest/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/fferman42
+[linkedin-url]: https://linkedin.com/in/franckferman
 [product-screenshot]: images/screenshot.png
