@@ -80,6 +80,7 @@ Write-Host ""
 
 function Specific_Request
 {
+Write-Host ""
 $User_Input=Read-Host "What request would you like to make to Google"
 
 Add-Type -AssemblyName System.speech
