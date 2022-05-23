@@ -1,6 +1,6 @@
 <#PowerNest.ps1
 Author: Franck FERMAN - fferman@protonmail.ch
-Description:  Control your Google Nest Mini with PowerShell.
+Description: Control your Google Nest Mini with PowerShell.
 Version: 2.0
 #>
 
