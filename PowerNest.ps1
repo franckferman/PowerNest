@@ -105,6 +105,7 @@ main
 
 function Schedule_Alarm
 {
+Write-Host ""
 $time=Read-Host "At what time would you like to schedule an alarm (for example, 10AM, or 10PM, or in 60 minutes)?"
 $date=Read-Host "When do you want to schedule an alarm (for example, tomorrow, or every day, or Tuesday July 16 2022)?"
 
